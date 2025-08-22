@@ -8,8 +8,8 @@ import SignUp from './SignUp'
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    emailID: "",
-    password: ""
+    emailID: "aaadhya.kapoor@yahoo.com",
+    password: "Aradhya@123"
   })
   const [errorMessage, setErrorMessage] = useState(null)
   const [isSubmitting, setIsSubmitting] = useState(false)
